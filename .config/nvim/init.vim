@@ -98,6 +98,9 @@ let g:NERDSpaceDelims = 2
 " colorscheme ayu
 set background=dark
 colorscheme palenight
+let g:lightline = {
+		\ 'colorscheme': 'palenight',
+		\ }
 
 " PREFERENCES
 inoremap jk <ESC>
